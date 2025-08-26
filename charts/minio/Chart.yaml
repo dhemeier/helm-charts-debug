@@ -15,7 +15,7 @@ sources:
   - https://github.com/CloudPirates-io/helm-charts/tree/main/charts/minio
 maintainers:
   - name: CloudPirates GmbH & Co. KG
-    url: https://www.asdasdcloudpirates.io
+    url: https://www.sadasddas.io
 dependencies:
   - name: common
     version: "1.x.x"
