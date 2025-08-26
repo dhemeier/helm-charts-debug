@@ -34,11 +34,11 @@ jobs:
       - name: Run chart-testing (list-changed)
         id: list-changed
         run: |
-          ct list-changed --config ct.yaml
-          changed=$(ct list-changed --config ct.yaml)
+          ct list-changed --target-branch main
+          changed=$(ct list-changed --target-branch main)
           if [[ -n "$changed" ]]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Run chart-testing (lint)
-        run: ct lint --config ct.yaml
+        run: ct lint --target-branch main
