@@ -5,3 +5,6 @@ updates:
       - /charts/*
     schedule:
       interval: "weekly"
+    target-branch: "main"
+    labels:
+      - "dependency"
