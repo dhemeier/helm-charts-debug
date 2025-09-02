@@ -4,7 +4,7 @@ updates:
     directories: 
       - /charts/*
     schedule:
-      interval: "weekly"
+      interval: "daily"
     target-branch: "main"
     labels:
       - "dependency"
