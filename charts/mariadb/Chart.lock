@@ -2,5 +2,5 @@ dependencies:
 - name: common
   repository: oci://registry-1.docker.io/cloudpirates
   version: 1.0.0
-digest: sha256:4dc4489391e65614af4cd64d56a213e353a7a70b231faf64c584779774304d96
-generated: "2025-08-14T12:32:25.29115+02:00"
+digest: sha256:b44ff74f8942500118adddcda98db9eb5a82ea58ee7724d140279084ff0cd04b
+generated: "2025-09-02T09:30:13.46868774Z"
